@@ -274,7 +274,7 @@ body {
 }
 
 .production-content li span {
-    color: #d7ff00;
+    color: white;
 
     margin-right: 4px;
 }
@@ -792,9 +792,9 @@ font-size: 22px;
         margin: 0;
         padding: 30px 20px;
     }
-
-    .individual-pricing h2 {
-        margin-bottom: 20px;
+    
+    .indhead h2 {
+        margin-bottom: 40px;
     }
 
     .price-line {
