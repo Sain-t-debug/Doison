@@ -1,0 +1,1142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #111;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+
+
+
+
+/* =========================================
+   WEBSITE PAGES
+========================================= */
+
+.website-page {
+   
+    background: #080808;
+    color: #fff;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.navbar {
+    height: 55px;
+
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #080808;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 45px;
+
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 20px;
+    opacity: .9;
+}
+
+.contact-button {
+    background: #fff;
+    color: #111;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 7px 10px;
+}
+
+
+/* =========================================
+   PRICING HERO
+========================================= */
+
+.pricing-hero {
+    padding: 42px 14%;  
+    margin-bottom:70px;
+}
+
+.pricing-hero h1 {
+    font-size: clamp(42px, 5vw, 100px);
+    text-align: center;
+
+    font-weight: 400;
+
+    line-height: .86;
+
+    letter-spacing: -4px;
+}
+
+
+
+
+.individual-pricing {
+    background: #f4f4f4;
+
+    color: #111;
+
+    margin: 0 14px;
+
+    padding: 50px 40px; 
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+
+    gap: 250px;
+}
+
+
+
+ .price-line {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+ }
+
+.arrow-button {
+    width: 60px;
+    height: 60px;
+
+    border: 0;
+
+    background: #111;
+    color: #fff;
+
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+.price-description {
+    font-size: 25px;
+    line-height: 1.35;
+
+    
+
+    color: #777;
+
+    margin-top: 7px;margin-bottom: 120px;
+}
+
+
+/* =========================================
+   SERVICE TABS
+========================================= */
+
+.service-tabs {
+    display: flex;
+
+    margin-top: 20px;
+
+    background: #e9e9e9;
+
+    width: fit-content;
+}
+
+.service-tabs button {
+    border: 0;
+
+    padding: 5px 8px;
+
+    background: transparent;
+
+    font-size: 22px;
+
+    color: #777;
+}
+
+.service-tabs button.active {
+    background: #111;
+    color: white;
+}
+
+
+/* =========================================
+   FEATURES
+========================================= */
+
+.individual-features {
+    margin-top: 12px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 7px;
+
+    font-size: 26px;
+}
+
+.individual-features span {
+    color: #111;
+    font-size: 35px;
+
+    margin-right: 4px;
+}
+
+
+/* =========================================
+   PRICING CARDS
+========================================= */
+
+.pricing-cards {
+    display: grid;
+
+    grid-template-columns: 1.65fr 1fr;
+
+    gap: 20PX;
+
+    margin: 7px 14px 45px;
+}
+
+
+/* =========================================
+   PRODUCTION
+========================================= */
+
+.production-card {
+    min-height: 195px;
+
+    background: #101010;
+
+    border: 1px solid #292929;
+
+    padding: 38px;
+
+    position: relative;
+}
+
+.production-content h2 {
+    font-size: 77px;
+    font-weight: 500;
+
+    margin-bottom: 7px;
+}
+
+.production-content p {
+    
+    font-size: 30px;
+    line-height: 1.35;
+
+    color: #aaa;
+    margin-bottom: 100px;
+}
+
+.production-content ul {
+    margin-top: 15px;
+
+    list-style: none;
+}
+
+.production-content li {
+    font-size: 26px;
+    margin-bottom: 6px;
+
+    color: #ddd;
+}
+
+.production-content li span {
+    color: #d7ff00;
+
+    margin-right: 4px;
+}
+
+.sparkle {
+    position: absolute;
+
+    top: 15px;
+    right: 15px;
+
+    font-size: 63px;
+
+    color: white;
+}
+
+.production-price {
+    position: absolute;
+
+    right: 18px;
+    bottom: 18px;
+
+    width: 305px;
+    height: 200px;
+
+    background: #f5f5f5;
+
+    color: #111;
+
+    padding: 10px;
+}
+.production-price P{
+    font-size: 20PX;
+    margin: 10px 40px;
+}
+.production-price span {
+
+color: #777;
+    font-size: 26px;
+}
+
+.production-price h3 {
+
+
+    font-size: 36px;
+
+    font-weight: 500;
+
+    margin: 20px 40px;
+}
+
+
+.production-price button {
+    
+
+    border: 0;
+
+    background: #111;
+    color: white;
+
+    font-size: 25px;
+    margin: 10px 40px;
+    padding: 7px 30px;
+}
+
+
+/* =========================================
+   ENTERPRISE
+========================================= */
+
+.enterprise-card {
+    background-color:darkkhaki;
+
+    color: #111;
+
+    padding: 17px;
+
+    position: relative;
+}
+
+.enterprise-card h2 {
+    font-size: 77px;
+
+    font-weight: 500;
+
+    margin:0px 50px 50px 20px;
+}
+
+.enterprise-card ul {
+    list-style: none;
+    margin:0px 50px 10px 20px;
+}
+
+.enterprise-card li {
+    font-size: 26px;
+
+    margin-bottom: 6px;
+
+    line-height: 1.2;
+}
+
+.enterprise-card li span {
+    margin-right: 4px;
+}
+
+.enterprise-bottom {
+    position: absolute;
+
+    left: 17px;
+    right: 17px;
+    bottom: 17px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background: #f5f5f5;
+
+    padding: 27px;
+    margin: 0px 50px 30px 50px;
+}
+
+.enterprise-bottom span {
+    font-size: 25px;
+}
+
+.enterprise-bottom button {
+    border: 0;
+
+    background: #111;
+    color: #fff;
+
+    padding: 15px 19px;
+
+    font-size: 25px;
+}
+
+
+/* =========================================
+   FAQ
+========================================= */
+
+.faq-section {
+    background: #f4f4f4;
+
+    color: #111;
+
+    padding: 45px 14px 60px;
+
+    
+
+    min-height: 270px;
+    gap: 50px;
+}
+.faq-heading{
+    margin-top: 80px;
+    display: grid;
+
+    grid-template-columns: 2fr 4fr ;
+}
+.faq-label {
+    font-size: 30px;
+
+    margin-left: 50px;
+
+    
+}
+
+.faq-content h2 {
+    font-size: 55px;
+
+    font-weight: 400;
+
+    line-height: .95;
+
+    letter-spacing: -1.5px;
+}
+
+.faq-content h2 span {
+    color: #888;
+}
+
+.faq-question {
+    margin-top: 35px;
+
+    padding: 30px 50px;
+
+    display: flex;
+}
+
+
+
+
+.faq-main p{
+font-size: 22px;
+    color: #888;
+
+    margin-top: 5px;
+}
+
+.faq-main h3 {
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.faq-question button {
+    border: 0;
+    margin-left: 200px;
+
+    background: #111;
+    color: white;
+
+    width: 34px;
+    height: 34px;
+
+    font-size: 10px;
+}
+
+.faq-content > p {
+    font-size: 6px;
+
+    line-height: 1.4;
+
+    max-width: 280px;
+
+    color: #777;
+
+    margin-top: 10px;
+}
+
+.faq-item {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.faq-item h3 {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.faq-item p {
+    font-size: 26px;
+    color: #888;
+
+    margin-top: 5px;
+
+    max-width: 520px;
+}
+
+
+/* =========================================
+   CULTURE HERO
+========================================= */
+
+.culture-hero {
+    padding: 42px 14px 0;
+}
+
+.culture-hero h1 {
+    font-size: clamp(42px, 5vw, 20REM);
+
+    font-weight: 400;
+
+    line-height: .86;
+
+    letter-spacing: -4px;
+    margin-top: 100PX;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+
+/* =========================================
+   CULTURE IMAGES
+========================================= */
+
+.culture-images {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+    padding: 20PX 100PX;
+}
+
+.culture-image {
+    height: 463px;
+
+    overflow: hidden;
+}
+
+.culture-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* =========================================
+   CULTURE INTRO
+========================================= */
+
+.culture-intro {
+    padding: 27px 14px 15px;
+}
+
+.section-label {
+    font-size: 66px;
+    text-align: center;
+
+    color: #888;
+
+    margin-bottom: 8px;
+}
+
+.culture-intro h2 {
+    font-size: 54px;
+
+    font-weight: 400;
+
+    line-height: .95;
+
+    letter-spacing: -1.3px;
+
+    /* max-width: 800px; */
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+
+/* =========================================
+   CULTURE DETAILS
+========================================= */
+
+.culture-details {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    gap: 20px;
+
+    padding: 15px 14px 35px;
+}
+
+.culture-text {
+    
+    padding-top: 5px;
+    width: 700px;
+}
+
+.culture-item {
+    margin-bottom: 28px;
+}
+
+.culture-item h3 {
+    font-size: 28px;
+
+    margin-bottom: 7px;
+}
+
+.culture-item p {
+    font-size: 24px;
+
+    color: #888;
+
+    line-height: 1.35;
+
+}
+
+.culture-detail-image {
+    height: 445px;
+
+    overflow: hidden;
+}
+
+.culture-detail-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================================
+   CULTURE BUTTON
+========================================= */
+
+.culture-action {
+    padding: 0 14px 35px;
+}
+
+.culture-action button {
+    background: white;
+    color: #111;
+
+    border: 0;
+
+    padding: 7px 12px;
+
+    font-size: 22px;
+    border-radius: 12px;
+}
+
+
+/* =========================================
+   OPEN ROLES
+========================================= */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-roles p {
+    
+    border-radius: 20px;
+
+    margin: 0 14px;
+
+    padding: 10px;
+
+    font-size: 27px;
+
+    color: #aaa;
+}
+
+
+/* =========================================
+   BOTTOM SPARKLE
+========================================= */
+
+.bottom-sparkle {
+    text-align: right;
+
+    padding: 5px 15px 15px;
+
+    font-size: 90px;
+}
+
+
+/* =========================================
+   RESPONSIVE — TABLET & MOBILE (<= 900px)
+========================================= */
+
+@media (max-width: 900px) {
+
+    /* ---- layout containers ---- */
+    .pages-container {
+        flex-direction: column;
+
+        padding: 0 25px 40px;
+
+        gap: 30px;
+    }
+
+    .website-page {
+        width: 100%;
+    }
+
+    .contact-button{
+        font-size: 10 px;
+    }
+
+    /* ---- navigation ---- */
+    .navbar {
+        height: auto;
+        padding: 14px 20px;
+
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        gap: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    /* ---- pricing hero ---- */
+    .pricing-hero {
+        padding: 30px 20px;
+        margin-bottom: 40px;
+    }
+
+    .pricing-hero h1,
+    .culture-hero h1 {
+        font-size: 56px;
+        letter-spacing: normal;
+    }
+
+    /* ---- individual pricing ---- */
+    .individual-pricing {
+        flex-direction: column;
+        gap: 30px;
+
+        margin: 0;
+        padding: 30px 20px;
+    }
+
+    .individual-pricing h2 {
+        margin-bottom: 20px;
+    }
+
+    .price-line {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .arrow-button {
+        width: 48px;
+        height: 48px;
+
+        margin-left: 0;
+    }
+
+    .price-description {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    /* ---- service tabs ---- */
+    .service-tabs button {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+
+    /* ---- features ---- */
+    .individual-features {
+        grid-template-columns: 1fr;
+        font-size: 18px;
+    }
+
+    .individual-features span {
+        font-size: 22px;
+    }
+
+    /* ---- pricing cards ---- */
+    .pricing-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        margin: 7px 20px 30px;
+    }
+
+    /* ---- production ---- */
+    .production-card {
+        min-height: auto;
+        padding: 24px;
+    }
+
+    .production-content h2 {
+        font-size: 40px;
+    }
+
+    .production-content p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .production-content li {
+        font-size: 16px;
+    }
+
+    .sparkle {
+        font-size: 36px;
+
+        top: 10px;
+        right: 10px;
+    }
+
+    .production-price {
+        position: static;
+
+        width: 100%;
+        height: auto;
+
+        margin-top: 20px;
+        padding: 16px;
+    }
+
+    .production-price p {
+        font-size: 15px;
+        margin: 8px 0;
+    }
+
+    .production-price span {
+        font-size: 18px;
+    }
+
+    .production-price h3 {
+        font-size: 26px;
+        margin: 12px 0;
+    }
+
+    .production-price button {
+        font-size: 18px;
+        margin: 8px 0;
+        padding: 8px 20px;
+    }
+
+    /* ---- enterprise ---- */
+    .enterprise-card {
+        padding: 20px;
+    }
+
+    .enterprise-card h2 {
+        font-size: 40px;
+        margin: 0 0 24px;
+    }
+
+    .enterprise-card ul {
+        margin: 0 0 16px;
+    }
+
+    .enterprise-card li {
+        font-size: 16px;
+    }
+
+    .enterprise-bottom {
+        position: static;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+
+        margin: 20px 0 0;
+        padding: 18px;
+    }
+
+    .enterprise-bottom span {
+        font-size: 16px;
+    }
+
+    .enterprise-bottom button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+
+    /* ---- faq ---- */
+    .faq-section {
+        padding: 30px 16px 40px;
+    }
+
+    .faq-heading {
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+        gap: 16px;
+    }
+
+    .faq-label {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .faq-content h2 {
+        font-size: 32px;
+    }
+
+    .faq-question {
+        margin-top: 20px;
+        padding: 20px 16px;
+        flex-wrap: wrap;
+    }
+
+    .faq-main h3 {
+        font-size: 22px;
+    }
+
+    .faq-main p {
+        font-size: 16px;
+    }
+
+    .faq-question button {
+        margin-left: auto;
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .faq-item {
+        margin-right: 0;
+    }
+
+    .faq-item h3 {
+        font-size: 22px;
+    }
+
+    .faq-item p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    /* ---- culture hero ---- */
+    .culture-hero {
+        padding: 30px 16px 0;
+    }
+
+    .culture-hero h1 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* ---- culture images ---- */
+    .culture-images {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .culture-image {
+        height: 260px;
+    }
+
+    /* ---- culture intro ---- */
+    .culture-intro {
+        padding: 20px 16px;
+    }
+
+    .section-label {
+        font-size: 28px;
+    }
+
+    .culture-intro h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    /* ---- culture details ---- */
+    .culture-details {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+
+        padding: 15px 16px 30px;
+    }
+
+    .culture-text {
+        width: 100%;
+    }
+
+    .culture-item h3 {
+        font-size: 20px;
+    }
+
+    .culture-item p {
+        font-size: 16px;
+    }
+
+    .culture-detail-image {
+        height: 260px;
+    }
+
+    /* ---- culture action ---- */
+    .culture-action {
+        padding: 0 16px 30px;
+    }
+
+    .culture-action button {
+        width: 100%;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    /* ---- footer / open roles ---- */
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .open-roles p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    /* ---- bottom sparkle ---- */
+    .bottom-sparkle {
+        font-size: 44px;
+        padding: 5px 16px 16px;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE — SMALL PHONES (<= 480px)
+========================================= */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 16px;
+    }
+
+    .nav-links {
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .pricing-hero {
+        padding: 24px 16px;
+    }
+
+    .pricing-hero h1,
+    .culture-hero h1 {
+        font-size: 40px;
+    }
+
+    .service-tabs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price-description{
+        font-size: medium;
+        width: 300px;
+    }
+
+    .production-content h2,
+    .enterprise-card h2 {
+        font-size: 30px;
+    }
+
+    .sparkle {
+        font-size: 28px;
+    }
+
+    .section-label {
+        font-size: 22px;
+    }
+
+    .culture-intro h2 {
+        font-size: 22px;
+    }
+
+    .culture-image,
+    .culture-detail-image {
+        height: 200px;
+    }
+
+    .bottom-sparkle {
+        font-size: 32px;
+    }
+}
