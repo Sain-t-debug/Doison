@@ -540,6 +540,10 @@ color: #777;
         margin-bottom: 40px;
     }
 
+    .individual-left h2 {
+        text-align: center;
+    }
+
     .pricing-hero h1,
     .culture-hero h1 {
         font-size: 56px;
@@ -623,7 +627,7 @@ color: #777;
 
     .production-price {
         position: static;
-
+        text-align: center;
         width: 100%;
         height: auto;
 
@@ -670,10 +674,10 @@ color: #777;
 
     .enterprise-bottom {
         position: static;
-
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 12px;
+        justify-content: center;
 
         margin: 20px 0 0;
         padding: 18px;
